@@ -2,5 +2,5 @@
 
 <h3><%= @student.name %></h3>
 <% @student.course_grades.each do |course| %>
-	<p>Course: <%= "#{course.name}" %> Grade: <%= "#{course.grade}" %></p>
+	<p>Course: <%= "#{course.name}," %> Grade: <%= "#{course.grade}" %></p>
 <% end %>
